@@ -89,6 +89,15 @@ p.human
   35. How often should I commit to github? As often as you can. You need to get in the habit of doing it often for references that you'll
       need in the future. 
     
-  36. What is the command we would use to push our repo up to github? 
+  36. What is the command we would use to push our repo up to github? git push origin "your branch name"
     
   37. Walk me through Lambda's git flow. 
+   You want to go into github for the repo. First we fork the repo to our own page. Then we add collaborators to the project by going to 
+   settings then collaborators. We then clone the repo and add it to our computers through vs code by typing git clone "url" 
+   Then you type cd "name of repo", when it is opened, it will be set to master or main. You have to branch it to yourself by typing
+   git checkout -b 'username'. After that you can add the file to it by using touch command. After you make edits to that file, you have
+   to type git add . to add all changes, or git add 'filename' if you only want to add specific edits from specific files. After that, you
+   you must git commit -m "message here" to save all changes and make sure you properly describe changes for future reference needs.
+   Afterwards we git push origin your-branch-name to push the repo to github. Once the repo is in github, you go to create pull request. 
+   Make sure you hit the drop down from the master repo to yours. Then you add your collaborator with the drop down on right hand side. 
+     
