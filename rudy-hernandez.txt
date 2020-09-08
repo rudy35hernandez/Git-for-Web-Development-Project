@@ -99,5 +99,30 @@ p.human
    to type git add . to add all changes, or git add 'filename' if you only want to add specific edits from specific files. After that, you
    you must git commit -m "message here" to save all changes and make sure you properly describe changes for future reference needs.
    Afterwards we git push origin your-branch-name to push the repo to github. Once the repo is in github, you go to create pull request. 
-   Make sure you hit the drop down from the master repo to yours. Then you add your collaborator with the drop down on right hand side. 
+   Make sure you hit the drop down from the master repo to yours. Then you add your collaborator with the drop down on right hand side.
+
+
+   1. What is the difference between an inline element and a block element? 
+      
+       A block element usually takes up a new line or section (block) of the page. Whereas an inline element can be added within a line.
+       An example of an inline element is <span>. An example of a block element is <div>
+
+    2. What happens when an element is positioned absolutely? 
+       It's positioned relative to the position of the nearest ancestor
+    
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+       
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that 
+       is display inline-block by default.
+       
+       3 display block elements- <div>, <table>, and <section>
+       2 inline elements- <b> and <span>
+       1 inline-block element- <button> 
+    
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all 
+       elements respect the width we've given them?  
+
+       The box model is the idea that every element in HTML is wrapped around with a box. And in these boxes, we can dictate the width, 
+       the height, the padding, etc. We make all elements respect the width weve given them by making sure we announce the position and 
+       display.
      
